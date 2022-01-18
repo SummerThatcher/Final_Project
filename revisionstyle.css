@@ -1,0 +1,51 @@
+nav a:visited,
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul > li {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+p{
+    padding-left: 25;
+}
+div {
+
+}
+
+li {
+    font-size: 20px;
+    list-style: none;
+}
+
+.introduction {
+    text-align: center;
+    padding: 36px 64px;
+}
+
+.revisions {
+    display: flex;
+}
+

@@ -34,26 +34,31 @@ h1 {
     font-size: 2em;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 span {
     background-color: white;
 }
 
 p {
     margin-bottom: 36px;
     max-width: 850px;
-    display: block;
+    display: inline-flex
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-size: large;
     padding-left: 350;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    font-size: 20px;
 }
 
+p span {
+    background-color: white;
+}
 body>main {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 36px 64px;
+    padding: 18px 64px;
     margin: 0;
     flex-flow: column nowrap;
     align-items: center;
@@ -67,6 +72,41 @@ body>main>img {
     margin-top: 6px;
     animation: shake 3s;
 }
-img {
+
+aside>img {
     position: fixed;
+}
+
+caption span {
+    background-color: white;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+td {
+    height: 100%;
+    text-align: left;
+    width: 100%;
+    vertical-align: left;
+    background-color: white;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+
 }
