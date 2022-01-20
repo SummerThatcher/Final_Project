@@ -14,7 +14,7 @@ nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: grey;
+    background-color: black;
     
 }
 
@@ -41,8 +41,6 @@ h1 span {
 }
 
 p {
-    max-width: 850px;
-    padding-left: 600;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
@@ -50,6 +48,7 @@ p {
 p span {
     background-color: white;
 }
+
 body>main {
     font-family: Arial, Helvetica, sans-serif;
     padding: 18px 64px;
@@ -59,16 +58,8 @@ body>main {
     color: hsl(0, 0%, 20%);
 }
 
-body>main>img {
-    float: left;
-    margin-right: 24px;
-    margin-bottom: 24px;
-    margin-top: 6px;
-    animation: shake 3s;
-}
-
-aside>img {
-    position: fixed;
+aside {
+   padding-left: 12vw;
 }
 
 caption span {
@@ -90,6 +81,7 @@ td {
     text-align: left;
     vertical-align: left;
     background-color: white;
+    font-size: 1vw;
 }
 
 table, td, th {
@@ -99,5 +91,3 @@ table, td, th {
     text-align: center;
     background-color: white;
 }
-
-
